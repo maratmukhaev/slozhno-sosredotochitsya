@@ -168,7 +168,11 @@ h4.title-decor {
   color: var(--text-color);
 }
 
-.section-gallery,
+.section-gallery {
+  display: grid;
+  gap: var(--main-gap);
+}
+
 .gallery {
   display: grid;
   gap: var(--main-gap);
