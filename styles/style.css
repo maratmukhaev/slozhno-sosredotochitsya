@@ -3,7 +3,7 @@
 .page {
   position: relative;
   background-color: var(--bg-color);
-  background-image: var(--bg-image);  
+  background-image: var(--bg-image);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

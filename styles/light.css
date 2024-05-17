@@ -4,13 +4,13 @@
   переключая тему
 */
 
-.page.theme_light { 
+.page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
-  */ 
+  */
   --accent-color: #ff8dcb;
-  --bg-color: #fff1f7;  
+  --bg-color: #fff1f7;
   --bg-image: url("../images/cover-image-light.png");
   --decorated-zone-color: #353430;
   --text-color: #353430;
@@ -29,7 +29,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
-    --bg-color: #fff1f7;  
+    --bg-color: #fff1f7;
     --bg-image: url("../images/cover-image-light.png");
     --decorated-zone-color: #353430;
     --text-color: #353430;
@@ -42,7 +42,7 @@
   }
   .header__decorated-lamp {
     display: none;
-  } 
+  }
 }
 
 @media (min-width: 1024px) {
